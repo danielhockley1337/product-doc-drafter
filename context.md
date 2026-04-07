@@ -132,6 +132,34 @@ Subsidiary of News Corp (NWSA / NWS).
 | Emma Tucker | Editor in Chief, WSJ |
 | Ryan Daly | SVP, Consumer Product |
 
+## B2B brands (reference only)
+
+These brands are out of scope for this repo but are included here for company-wide context. B2B and B2C share infrastructure (OneID, Factiva content, entitlements, APIs/feeds) so awareness of the B2B portfolio helps when working on cross-cutting systems.
+
+### Factiva
+
+Factiva is Dow Jones' flagship B2B research, monitoring, and discovery brand. It aggregates global news, business information, and reference data from Dow Jones titles (WSJ, Barron's, Newswires) plus thousands of external sources into a single professional research environment. Enterprise users rely on Factiva for competitive intelligence, market research, media monitoring, and risk insights.
+
+Factiva is both a destination (Factiva.com) and a data platform. Its content powers other DJ products and partner workflows through APIs, feeds, and integrations. Internally, Factiva content is reused across Risk & Compliance (adverse media, investigations), WSJ Pro products, and analytics partnerships (e.g., sentiment signals). It sits in the "Research, Monitoring & Discovery" pillar of the B2B Professional Platform.
+
+### Dow Jones Risk & Compliance (R&C)
+
+Risk & Compliance helps organizations manage financial crime, sanctions, anti-bribery/anti-corruption, and third-party risk. It combines proprietary curated risk data (watchlists, sanctions, politically exposed persons, state-owned entities, adverse media) with purpose-built tools and services for regulatory and operational compliance workflows. R&C serves more than 10,000 customers worldwide, including many top financial institutions.
+
+Key products include RiskCenter, the Risk Database tiers (Search, Research, Premium), due-diligence reports, and Risk Journal (a premium digital news product for compliance professionals with curated journalism on financial crime, sanctions, AML, and geopolitics). R&C is one of the primary engines of B2B growth, with significant investment in AI, feeds, and convergence with the broader B2B platform.
+
+### Dow Jones Newswires
+
+Newswires is the real-time news and data brand for professional and institutional users. It delivers rolling global business and markets coverage, economic indicators, corporate news, and expert analysis, often as the first publication point before content appears in The Wall Street Journal. Content is distributed as direct feeds, low-latency machine-readable text for quant users, widgets, and via professional desktops (Bloomberg, FactSet, Refinitiv).
+
+Use cases span algorithmic trading (machine text feed), institutional research (NewsPlus dashboards), and enterprise integrations (APIs and feeds). Newswires is one of the three major B2B portfolios alongside Factiva and R&C, with modernization efforts (AI auto-translation, next-gen delivery) underway as products migrate into the DJ+ B2B platform.
+
+### OPIS / Energy
+
+OPIS (Oil Price Information Service) is Dow Jones' energy-data B2B brand, providing price benchmarks, news, and analytics across refined products, LPG, renewables, and related energy markets. Chemical Market Analytics by OPIS extends coverage into petrochemical and chemicals pricing and forecasting. Products are sold primarily to energy market participants who rely on benchmarks for trading, hedging, and operational decisions.
+
+Within DJ's org structure, OPIS/Energy is treated as a separate B2B brand cluster with its own platform and entitlement complexities being gradually unified into DJ+. Strategically, OPIS broadens Dow Jones' B2B footprint beyond financial services into commodity and industrial markets while plugging into shared capabilities (entitlements, APIs/feeds, AI/data infrastructure).
+
 ## Competitive landscape
 
 Dow Jones competes with FT, Bloomberg, NYT, and specialist financial media for digital subscribers.
@@ -1708,11 +1736,11 @@ Ryan Daly — SVP, Consumer Products
 
 ## Commerce leadership triad
 
-| Discipline | People |
-| --- | --- |
-| Product | Daniel Hockley (VP) |
+| Discipline  | People                               |
+| ----------- | ------------------------------------ |
+| Product     | Daniel Hockley (VP)                  |
 | Engineering | Ajith Ittan (VP), Ratheesh Nair (VP) |
-| Design | Min Chung (VP), Jesús Gorriti (VP) |
+| Design      | Min Chung (VP), Jesús Gorriti (VP)   |
 
 ## Platform Product org
 
