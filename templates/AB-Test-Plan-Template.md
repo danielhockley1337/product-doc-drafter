@@ -30,11 +30,11 @@ Example: "If we display an annual plan comparison at the payment step, then annu
 
 [Describe each variant clearly. Use a table. Include a brief description and note what is different from control.]
 
-| Variant | Name | Description | What Changes vs. Control |
-| :---- | :---- | :---- | :---- |
-| Control | [Name] | [What the current experience looks like] | Baseline - no change |
-| Variant A | [Name] | [What changes] | [Specific change from control] |
-| Variant B (if applicable) | [Name] | [What changes] | [Specific change from control] |
+| Variant                   | Name   | Description                              | What Changes vs. Control       |
+| :------------------------ | :----- | :--------------------------------------- | :----------------------------- |
+| Control                   | [Name] | [What the current experience looks like] | Baseline - no change           |
+| Variant A                 | [Name] | [What changes]                           | [Specific change from control] |
+| Variant B (if applicable) | [Name] | [What changes]                           | [Specific change from control] |
 
 ### Audience
 

@@ -64,7 +64,8 @@ All templates live in `templates/`. Current templates:
 
 | Template file | When to use |
 | --- | --- |
-| `Product 1-Pager and PRD Template - Dow Jones .md` | Default for new product initiatives — start here unless told otherwise |
+| `1-Pager-Template.md` | Default starting point for new product initiatives |
+| `PRD-Template.md` | When the initiative is ready to expand beyond the 1-pager |
 | `AB-Test-Plan-Template.md` | When the PM wants to design an A/B or multivariate experiment |
 | `Stakeholder-Questions-Template.md` | When open questions from Q&A need to be captured as a takeaway document for the PM |
 
