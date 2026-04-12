@@ -4,13 +4,31 @@ This file is where your company and team context lives. The drafter reads it at 
 
 Without context, the drafter works as a generic PM tool. With context, it becomes grounded in your reality: your products, your team, your strategy, your terminology, and your competitive landscape.
 
+## The fastest way to build your context
+
+You do not need to write this from scratch. Use Claude to build it for you:
+
+1. Gather existing docs: strategy decks, org charts, product briefs, OKR docs, architecture diagrams, glossaries, onboarding materials
+2. Drop them into this repo (or paste them into the conversation)
+3. Ask Claude to read them and organize the information into the context skeleton below
+
+Claude will extract the substance, strip the jargon, and file everything into the right sections. You review, correct, and fill gaps. This turns hours of writing into a conversation.
+
+## What makes good context
+
+**Write for durability.** Context should be factual information that stays true for months, not weeks. Company overview, product descriptions, team structure, strategic direction, competitive landscape, technology stack. Avoid status updates, sprint goals, or anything that will be stale next quarter. The more stable the information, the less maintenance this file needs.
+
+**Write at a PM level of detail.** The drafter needs enough context to write informed product documents, challenge assumptions, and ask the right questions. That means: what the products are and who they serve, how the business model works, who the competitors are, what the team's priorities are, and what technology constraints exist. It does not mean architecture diagrams, database schemas, or line-level code details. Think about what a new PM would need in their first week to start contributing.
+
+**Partial context is better than no context.** Start with whatever you have. A company overview and product list is enough to get value. Add depth over time as gaps surface during document drafting sessions.
+
 ## How to add your context
 
 You have two options:
 
 ### Option 1: Write directly in this file
 
-Replace this guide with your own context. Write in plain markdown. Cover the topics listed in the skeleton below, in whatever depth you have. Partial context is better than no context. You can always add more later.
+Replace this guide with your own context. Write in plain markdown. Cover the topics listed in the skeleton below, in whatever depth you have. You can always add more later.
 
 ### Option 2: Create a separate context repo (recommended for teams)
 
