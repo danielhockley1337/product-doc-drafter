@@ -1,35 +1,43 @@
 # Product Document Drafter
 
-A multi-agent system for turning rough product ideas into structured documents. Built for use with Claude Code.
+A multi-agent product management tool that turns rough ideas into structured documents. Built for use with [Claude Code](https://claude.ai/code).
 
-## What it does
+## Why this exists
 
-You bring rough notes. The system identifies the right template, asks probing questions, challenges weak reasoning, and helps you write a properly structured product document.
+Most AI writing tools will happily draft a PRD from a vague brief. This one won't. It pushes back.
 
-It is not a template filler. It pushes back on vague problem statements, unsupported claims, and solutions in search of a problem.
+**It challenges you as you go.** Every unsupported claim, missing baseline, and vague "we believe" gets called out. If you say "users want X" without data, it will ask what signal you have. If your problem statement is actually a solution in disguise, it will tell you. The conversation is the work: by the time you have a draft, you've pressure-tested your thinking.
+
+**It knows your company.** Add your team's context once (products, strategy, competitors, tech stack, terminology) and the drafter uses it in every session. It asks better questions because it already knows what you're working with. No re-explaining your org every time.
+
+**It gives you a team, not just a chatbot.** 14 specialist agents are available on demand: a critic to tear your doc apart, a strategist to challenge your priorities, a researcher to plan discovery, an architect to scope the build, a designer to check feasibility. Each one brings a distinct perspective.
+
+**It scales with the initiative.** Start with a quick 1-Pager to get alignment. Expand to a full PRD as discovery progresses. Add an A/B test plan when you're ready to experiment. The system guides the progression.
+
+**It produces real documents.** Not chat responses. Structured markdown files in a project folder, ready to share. Export to formatted Word docs for stakeholders who don't live in repos.
+
+## How it works
+
+1. You describe your initiative or drop in rough notes
+2. The drafter asks questions, one at a time, challenging your thinking as you go
+3. When the problem and solution are well-defined, it drafts the document
+4. You review, iterate, and approve
+5. Call in specialist agents for deeper analysis: competitive research, technical scoping, measurement frameworks, design feasibility
 
 ## Setup
 
 1. Clone this repo and open it in Claude Code
-2. Open `context.md` in the repo root and follow the guide to add your company and team context. The system reads this before every session.
-3. Start a session and describe your initiative. The system will take it from there.
+2. Open `context.md` and follow the guide to add your company context. You can use Claude to build it from existing docs.
+3. Start a session and describe your initiative
 
-## File structure
+## Templates
 
-Each initiative gets its own subfolder inside `projects/`:
-
-```
-projects/
-  [initiative-slug]/
-    [initiative-slug]-1pager.md
-    [initiative-slug]-prd.md
-    competitive-analysis.md
-    source-docs/
-    prototype/
-      index.html
-```
-
-Use lowercase-hyphenated slugs.
+| Template | When to use |
+| --- | --- |
+| 1-Pager | Default starting point for new initiatives |
+| PRD | When the initiative is ready to expand beyond the 1-Pager |
+| A/B Test Plan | When you need to design an experiment |
+| Stakeholder Questions | When open questions need to be captured as a takeaway |
 
 ## Agent team
 
@@ -52,18 +60,26 @@ Use lowercase-hyphenated slugs.
 | `prototype-brief` | Produces a structured prompt for Lovable, v0, or similar AI prototyping tools | Prototype brief |
 | `test-plan` | Produces a rigorous A/B test plan with hypothesis, metrics, sample size, and guardrails | Deliverable |
 
-## Other files
+## File structure
 
-- `templates/` - all document templates live here
-- `md_to_docx.py` - converts markdown files to .docx with consistent formatting (Arial, black text, 1.15 line height, no bookmarks)
+Each initiative gets its own subfolder inside `projects/`:
 
-## Docx generation
+```
+projects/
+  [initiative-slug]/
+    [initiative-slug]-1pager.md
+    [initiative-slug]-prd.md
+    competitive-analysis.md
+    source-docs/
+    prototype/
+      index.html
+```
 
-Each initiative can have a thin `generate_docx.py` wrapper:
+## Docx export
+
+`md_to_docx.py` converts markdown to formatted Word docs (Arial, black text, 1.15 line height, no bookmarks). Each initiative can have a thin wrapper:
 
 ```python
 from md_to_docx import convert
 convert("initiative-slug/initiative-slug-1pager.md", "initiative-slug/initiative-slug-1pager.docx")
 ```
-
-Run with `python3 [initiative]/generate_docx.py`.
