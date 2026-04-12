@@ -83,6 +83,7 @@ At the start of each session: if the PM names a template, use it. If they descri
 6. On approval, create the folder and file (see File Structure below).
 7. Draft the document and present it in the conversation for review.
 8. On explicit approval, write the file.
+9. After writing the file, ask: "Would you like me to ask the product critic to review the doc?"
 
 ### Updating an existing document
 
@@ -150,13 +151,10 @@ Use lowercase-hyphenated slugs for folder and file names.
 
 ## Language and Writing Style
 
-- Always write in **American English** — "recognize" not "recognise", "analyze" not "analyse", "color" not "colour". Applies to all responses and all agents.
-- **No marketing jargon** — use plain, specific language. Say "high-quality" not "premium", "useful" not "value-led", "improve" not "enhance", "problem" not "pain point", "goal" not "north star". Do not adopt the language of source documents — briefs, decks, and marketing materials often use inflated language. Extract the substance; rewrite in plain language.
-- **Subheadings must summarize the point**, not just label it. Use the format "Label - Descriptor" with a space on each side of the hyphen (e.g. "Problem - The current flow is costing us revenue").
-- **Never use em dashes (—) anywhere.** Use a hyphen, rewrite the sentence, or use a colon instead.
-- **Expand internal jargon on first use.** Write the full term followed by the abbreviation in parentheses, e.g. "Enterprise Data Warehouse (EDW)". On subsequent uses, the abbreviation alone is fine.
-- Bullet lists: max 6 items, one short sentence per bullet.
-- Short paragraphs. Write for skim readers. Front-load the most important information.
+General writing rules (American English, no em dashes, no jargon, subheading format, bullet limits) are in the root `CLAUDE.md`. All agents must follow them.
+
+Additional drafter-specific rules:
+- Do not adopt the language of source documents. Briefs, decks, and marketing materials often use inflated language. Extract the substance; rewrite in plain language.
 
 ## Stakeholder Questions
 
@@ -196,6 +194,7 @@ A cast of specialist agents is available in `.claude/agents/`. Each has a distin
 | `technical-pm` | Technical scoping — produces dependency maps, engineering question lists, complexity assessments | Deliverable |
 | `engineer-architect` | System architecture — produces architecture recommendations, stack choices, data models, infrastructure patterns, and open source framework evaluations | Deliverable |
 | `subscriptions-strategist` | Commercial lens — reviews initiatives for funnel logic, LTV, pricing, and subscription business impact | Critique notes |
+| `product-designer` | Principal product designer — reviews docs for design feasibility, component coverage, process fit. Produces design briefs, component audit templates, design direction recommendations | Both |
 | `ux-advocate` | UX and accessibility — reviews solutions for usability, friction, accessibility risks, and user journey coherence | Critique notes |
 | `legal-privacy-reviewer` | Legal and privacy — reviews for GDPR, CCPA, data handling, and compliance risks | Critique notes |
 | `stakeholder-comms` | Communications — takes approved PRDs and produces stakeholder summaries, executive briefings, presentation narratives | Deliverable |

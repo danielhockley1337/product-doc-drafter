@@ -29,10 +29,10 @@ Take this list into your next stakeholder conversation, working session, or asyn
 
 Questions that require analysis, a data pull, or metric definition go here. These often take longer to answer and may need a specific team or tool.
 
-| # | What metric or data is needed | What it tells us | Owner | Status | Result |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| 1 | [Specific metric, baseline, or analysis] | [How it informs the initiative] | [Role or team] | Open | |
-| 2 | | | | Open | |
+| #   | What metric or data is needed            | What it tells us                | Owner          | Status | Result |
+| :-- | :--------------------------------------- | :------------------------------ | :------------- | :----- | :----- |
+| 1   | [Specific metric, baseline, or analysis] | [How it informs the initiative] | [Role or team] | Open   |        |
+| 2   |                                          |                                 |                | Open   |        |
 
 ## Notes
 

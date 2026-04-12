@@ -2,7 +2,8 @@
 # Compiled context for Dow Jones B2C product team.
 # Use this as system context when generating product docs, PRDs, briefs, or strategy.
 # Source of truth: github.com/danielhockley1337/dj-b2c-context
-# Files included: 38
+# Compiled on: 2026-04-11
+# Files included: 45
 
 
 ## FILE:company/glossary.md
@@ -200,7 +201,6 @@ Dow Jones frames itself as an **"Input company"** in the Age of AI — drawing a
 # FY2026 Priorities — Commerce Product
 
 > FY26 = July 2025 – June 2026
-> Last updated: 2026-03-20
 
 ## Subscriptions priorities
 
@@ -215,8 +215,8 @@ Dow Jones frames itself as an **"Input company"** in the Age of AI — drawing a
 ## SEO priorities
 
 - **Traffic ranking** — Move WSJ from #8 to #6 in share of traffic vs. competitors
-- **Crawl coverage** — Improve from 55% to 65% (exceeded: hit 74% in Q2)
-- **Crawl waste** — Reduce from 30% to 20% (at risk: at 49% in Q2)
+- **Crawl coverage** — Improve from 55% to 65%
+- **Crawl waste** — Reduce from 30% to 20%
 - **Programmatic SEO** — Market data pages, topic pages, earnings calendar (MarketWatch)
 
 ## Identity priorities
@@ -231,45 +231,32 @@ Dow Jones frames itself as an **"Input company"** in the Age of AI — drawing a
 
 ## Notes
 
-Last updated: 2026-03-20
-
 ## FILE:goals/FY2026/technology-okrs.md
 # Technology FY26 OKRs
 
 > Source: Technology FY26 OKR Tracker
-> FY26 = July 2025 – June 2026 | Last updated: 2026-03-20
-
----
+> FY26 = July 2025 – June 2026
 
 ## Grow Subscriptions
 
 ### KR: Grow digital subscriptions
 **Target:** Q4 average of 6.5M DJ digital subs (WSJ 4.3M)
-**Owner:** Dan | **Tech Exec:** Ryan | **ETA:** Q4 | **Status:** TBC
-
----
+**Owner:** Dan | **Tech Exec:** Ryan | **ETA:** Q4
 
 ### KR: Strengthen paywall strategy — registration growth
 **Target:** +10% incremental conversions and 6x monthly registration growth (20k → 120k) by EOFY26
-**Owner:** Dan | **Tech Exec:** Ryan | **ETA:** Q4 | **Status:** At Risk
-
----
+**Owner:** Dan | **Tech Exec:** Ryan | **ETA:** Q4
 
 ### KR: Drive consumer engagement +15% (app weekly subscriber time spent)
 **Target:** 1:02:05 → 1:11:24 overall app weekly subscriber time spent by EOH2 (via WSJ Redesign — Media & MyWSJ in H1)
-**Owner:** Ryan | **ETA:** H1 | **Status:** Off Track
-
----
+**Owner:** Ryan | **ETA:** H1
 
 ## FILE:goals/company-okrs.md
 # Company OKRs — FY26
 
 > FY26 = July 2025 – June 2026
-> Last updated: 2026-03-20
 > Full Technology OKR tracker: `goals/FY2026/technology-okrs.md`
 > Commerce product OKRs: `goals/product-okrs.md`
-
----
 
 ## Top-line subscription targets (FY26)
 
@@ -280,36 +267,33 @@ Last updated: 2026-03-20
 | Monthly registered users | 120k cumulative |
 | App weekly subscriber time spent | 1:11:24 |
 
----
-
 ## Technology OKR summary (FY26)
 
-| OKR | Owner | Status |
-| --- | --- | --- |
-| Grow digital subs to 6.5M DJ / 4.3M WSJ | Dan / Ryan | TBC |
-| Paywall — +10% conversion lift; 20k → 120k monthly registrations | Dan / Ryan | At Risk |
-| Consumer engagement +15% app weekly time spent | Ryan | Off Track |
-
----
+| OKR | Owner |
+| --- | --- |
+| Grow digital subs to 6.5M DJ / 4.3M WSJ | Dan / Ryan |
+| Paywall — +10% conversion lift; 20k → 120k monthly registrations | Dan / Ryan |
+| Consumer engagement +15% app weekly time spent | Ryan |
 
 ## FY27 strategic directions
 
-1. Return to net positive subscriber growth (currently negative net new in volume)
-2. Focus on engagement frequency (not time on site) as north star
-3. Bolster core digital subscription with new value for new audiences (Games, Sports, Market Data)
-4. Boost quality traffic with high subscription propensity (SEO/Audience team)
+Top-level goal: Return Core Digital Subscriptions to Net Growth
+
+Ryan Daly's FY27 consumer strategy is organized into four pillars:
+
+1. **Accelerate High-Quality Acquisition** - increase high-intent traffic (SEO), test new channels (Substack-style distribution, partnerships), improve funnel conversion, expand registered user experiences, new formats (video, infographics)
+2. **Reduce Churn by Increasing Value** - new coverage areas (Sports, Tech), Elevated Personalities, product interactions (video, AI, personalization), Bundles and Family Plan
+3. **Build Non-News Habits to Deepen Engagement and Attract New Audiences** - Games (expand portfolio, drive adoption), Market Data (differentiated experiences), Premium tools
+4. **Unlock New Revenue Streams** - Scale Video (DJ TV), AI partnerships, International
 
 ## Notes
-
-Last updated: 2026-03-20
 
 ## FILE:goals/product-okrs.md
 # Commerce Product OKRs
 
 > FY26 = July 2025 – June 2026 | FY27 = July 2026 – June 2027
-> Last updated: 2026-03-20
 
-## FY26 OKRs — Status as of Q3
+## FY26 OKRs
 
 ### Subscriptions
 
@@ -337,40 +321,36 @@ Last updated: 2026-03-20
 | OAuth2/OIDC token-based access | 100% (baseline: 80%) |
 | Reduce inactive accounts (6+ years) | 0 remaining (baseline: 2,337,801) |
 
----
-
 ## FY27 OKRs — Draft
 
-> Status: Draft — targets TBC pending input from Head of Growth and the business
+> Targets TBC pending input from Head of Growth and the business
 > FY27 runs July 2026 – June 2027
+> Consolidated from 5 to 4 objectives aligned to Ryan Daly's four pillars
 
-### O1: Return to net subscriber growth
+### O1: Accelerate high-quality acquisition and return to net subscriber growth
 - KR1: Achieve net positive new subscriber volume by end of Q2, sustained through Q4
-- KR2: Reduce voluntary churn rate through improved save and cancellation flows
-- KR3: Reduce involuntary churn through billing recovery and payment failure intervention
-- KR4: Improve paywall-to-checkout conversion rate through checkout improvements and experimentation
+- KR2: Improve paywall-to-checkout conversion rate through checkout improvements and experimentation
+- KR3: Grow monthly new free registrations to target by Q4
+- KR4: Improve registered-to-paid user conversion rate
+- KR5: Increase opt-in rate for lifecycle marketing channels among new registrants
 
-### O2: Build engagement habit through feature adoption and onboarding
-- KR1: Increase share of new subscribers using core features within their first 30 days
-- KR2: Improve 90-day retention rate among subscribers completing onboarding vs. those who don't
-- KR3: Increase average experiment-driven lift in feature adoption rate across onboarding and in-app product marketing
-- KR4: Increase share of active subscribers with 2+ active days per week (directional)
+### O2: Reduce churn by increasing subscriber value
+- KR1: Reduce voluntary churn rate through improved save and cancellation flows
+- KR2: Reduce involuntary churn through billing recovery and payment failure intervention
+- KR3: Achieve household subscription target by Q4, with price resilience rate higher than single-user plans
+- KR4: Increase average revenue per subscriber across WSJ, Barron's, and MarketWatch
+- KR5: Drive incremental WSJ+ Marketplace revenue by Q4
 
-### O3: Build subscriber funnels for new subscription products
+### O3: Build non-news habits to deepen engagement and attract new audiences
 - KR1: Acquire new subscribers via Games and Market Data entry points by Q4
-- KR2: Achieve target % of bundle upgrades completed via in-app purchasing by Q4
-- KR3: Achieve target % of net new subscribers acquired via non-news entry points by end of FY27
-- KR4: Achieve new registrations/subscribers via MarketWatch by Q4
+- KR2: Increase share of new subscribers using core features within their first 30 days
+- KR3: Improve 90-day retention rate among subscribers completing onboarding vs. those who don't
+- KR4: Achieve target % of net new subscribers acquired via non-news entry points by end of FY27
+- KR5: Increase share of active subscribers with 2+ active days per week (directional)
 
-### O4: Grow and convert the registered user base
-- KR1: Grow monthly new free registrations to target by Q4
-- KR2: Improve registered-to-paid user conversion rate
-- KR3: Increase opt-in rate for lifecycle marketing channels among new registrants
-
-### O5: Increase revenue per subscriber (ARPU)
-- KR1: Achieve household subscription target by Q4, with price resilience rate higher than single-user plans
-- KR2: Drive incremental WSJ+ Marketplace revenue by Q4
-- KR3: Increase average revenue per subscriber across WSJ, Barron's, and MarketWatch
+### O4: Unlock new revenue streams
+- KR1: Achieve target % of bundle upgrades completed via in-app purchasing by Q4
+- KR2: Achieve new registrations/subscribers via MarketWatch by Q4
 
 ### FY27 dependencies (owned outside Subscriptions)
 - Notifications/alerts hub — habit driver; owned by app/platform teams
@@ -1518,8 +1498,6 @@ A daily crossword and puzzle experience for WSJ subscribers.
 ## FILE:teams/commerce/team.md
 # Product Team — Commerce, Dow Jones
 
-> Last updated: 2026-03-20
-
 ## VP
 
 **Daniel Hockley** — VP of Product, Commerce (Mar 2025–Present)
@@ -1679,8 +1657,6 @@ The Messaging team owns the core infrastructure for delivering email newsletters
 ## FILE:teams/org-chart.md
 # Org Chart — Consumer Products, Dow Jones
 
-> Last updated: 2026-03-20
-
 ## Full Consumer Products org (reports into Ryan Daly)
 
 ```
@@ -1746,16 +1722,16 @@ Ryan Daly — SVP, Consumer Products
 
 Separate from the B2C and B2B product orgs. Reports into Yonathan Feldman (SVP, Platform Engineering).
 
-| Org | Product Lead | Sub-teams |
-| --- | --- | --- |
-| Publishing Systems | Clarissa Matthews | NewsGrid, NewsPress, Editorial Tools, DMI, Print & Newswires |
-| Search & Personalization | Puneet Goel (also Interim Head of Platform Product) | Search, Personalization (Signals), Gen AI Experiences |
-| Core Experience | Matt Kelley | Market Data, Audio/Video, Messaging |
-| Data & AI | (no product lead listed) | Content Services, Data Services, Data Engineering, AI & ML Foundations, Data Analytics |
-| APIs & Feeds | Michelle Mischutin | Customer Facing |
-| WSJ+ | Clarissa Matthews | — |
-| Commercial Technology | Robbie Sauerberg | Ad products, ad infrastructure, privacy platform, information systems — rolls into Consumer Product org |
-| DJ Platform (B2B) | Stefan Ritter | Foundational OS for B2B apps — out of scope for B2C repo |
+| Org                      | Product Lead                                        | Sub-teams                                                                                               |
+| ------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Publishing Systems       | Clarissa Matthews                                   | NewsGrid, NewsPress, Editorial Tools, DMI, Print & Newswires                                            |
+| Search & Personalization | Puneet Goel (also Interim Head of Platform Product) | Search, Personalization (Signals), Gen AI Experiences                                                   |
+| Core Experience          | Matt Kelley                                         | Market Data, Audio/Video, Messaging                                                                     |
+| Data & AI                | (no product lead listed)                            | Content Services, Data Services, Data Engineering, AI & ML Foundations, Data Analytics                  |
+| APIs & Feeds             | Michelle Mischutin                                  | Customer Facing                                                                                         |
+| WSJ+                     | Clarissa Matthews                                   | —                                                                                                       |
+| Commercial Technology    | Robbie Sauerberg                                    | Ad products, ad infrastructure, privacy platform, information systems — rolls into Consumer Product org |
+| DJ Platform (B2B)        | Stefan Ritter                                       | Foundational OS for B2B apps — out of scope for B2C repo                                                |
 
 Open role: SVP Product, Platform (JD posted; Puneet Goel covering in interim).
 
@@ -1785,7 +1761,6 @@ See `teams/platform/team.md` for full detail.
 ## FILE:teams/platform/apis-feeds.md
 # APIs & Feeds — Platform Product
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026) + APIs & Feeds one-pager
 
 ## Overview
@@ -1818,7 +1793,6 @@ APIs & Feeds is the triad focused on building a unified, world-class ecosystem f
 ## FILE:teams/platform/commercial-tech.md
 # Commercial Technology — Platform Team
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026)
 
 ## Overview
@@ -1871,7 +1845,6 @@ Covers:
 ## FILE:teams/platform/core-experience.md
 # Core Experience — Platform Product
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026)
 
 ## Overview
@@ -1939,7 +1912,6 @@ FY26 initiatives:
 ## FILE:teams/platform/data-ai.md
 # Data & AI — Platform Product
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026) + Data & AI one-pager
 
 ## Overview
@@ -2030,8 +2002,6 @@ Engineering leads: Denise Fawcitt (B2B), Emily Williams (B2C)
 ## FILE:teams/platform/publishing-systems.md
 # Publishing Systems — Platform Product
 
-> Last updated: 2026-03-29
-
 ## Overview
 
 Publishing Systems provides the core editorial and publishing tools that power Dow Jones consumer newsrooms end-to-end: from story planning, to writing and packaging, to publishing across web, apps, and other channels.
@@ -2111,7 +2081,6 @@ Together these products form the OneCMS publishing stack underpinning Dow Jones 
 ## FILE:teams/platform/search-personalization.md
 # Search & Personalization — Platform Product
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026)
 
 ## Overview
@@ -2183,7 +2152,6 @@ type: project
 
 # Platform Product Team — Dow Jones
 
-> Last updated: 2026-03-29
 > Source: Triad Leadership doc (30 March 2026)
 
 ## Leadership
@@ -2276,7 +2244,6 @@ type: project
 ## FILE:teams/platform/wsj-plus.md
 # WSJ+ — Platform Product
 
-> Last updated: 2026-03-31
 > Source: Triad Leadership doc (30 March 2026) + WSJ+ internal documentation
 
 ## Overview
@@ -2387,6 +2354,95 @@ Premium marketplace where WSJ+ members can buy add-on products at discounted rat
 - There is no separate WSJ+ app — customers download individual apps for WSJ, Barron's, MarketWatch, and IBD
 - WSJ+ is the product brand; entitlement and access are managed through the Commerce/Identity stack
 
+## FILE:teams/tooling.md
+# Tooling — Dow Jones
+
+Tools and access required for product and engineering teams. All tools are provisioned through the [Okta dashboard](https://newscorp.okta.com/). If you don't find an app in your Okta Dashboard, [follow this guide](https://dowjones.atlassian.net/wiki/spaces/DJSPA/pages/5027135600) to request access.
+
+## Essentials
+
+| Tool | What it's for | Access |
+| --- | --- | --- |
+| [Gmail](https://mail.google.com/mail) | Company email communication | Okta |
+| [Drive](https://drive.google.com/drive/) | Storing and sharing documents and files | Okta |
+| [Calendar](https://calendar.google.com/) | Scheduling meetings and managing availability | Okta |
+| [Slack](https://newscorp.enterprise.slack.com/archives/C05S1237URH) | Day-to-day team communication and coordination | Okta |
+| [Figma](https://www.figma.com/design/SoWomhr7SDX4I7hTZrzW16/dj-wsjplus-handoff?node-id=2154-108955&t=q6kuTrxOPnzL9zHI-0) | Product and UX/UI design collaboration and design-to-engineering handoff | Okta; join [#figma_dowjones](https://newscorp.enterprise.slack.com/archives/C03GQ4YJ1V5) in Slack |
+| [Confluence](https://dowjones.atlassian.net/wiki/spaces/DJSPA/pages/3904733246) | Documenting decisions, specs, runbooks, and team knowledge | Request in [#collaboration-tools](https://newscorp.enterprise.slack.com/archives/C025YNB03) |
+| [JIRA](https://dowjones.atlassian.net/jira/software/c/projects/PLUS/boards/1682) | Planning and tracking work (epics, stories, tasks, and bugs) through delivery | Request in [#collaboration-tools](https://newscorp.enterprise.slack.com/archives/C025YNB03) |
+| [Apollo Studio](https://studio.apollographql.com/graph/DJ-Shared-Data/variant/beta-vir/home) | Managing GraphQL schemas, operations, and monitoring API health | Okta |
+| Servo (next.onservo.com/orgs) | Deploying and managing services in our deployment environment | Okta |
+| GitHub | Source control, code review, and collaboration on software development | See GitHub access below |
+| Artifactory (DJ) | Storing and retrieving build artifacts and dependencies | [Follow the instructions](https://dowjones.atlassian.net/wiki/spaces/DJSPA/pages/5019501662) |
+
+### Figma Dev Mode
+
+For inspecting designs and generating accurate specs, measurements, and assets for implementation: [follow the instructions](https://docs.google.com/document/d/15PPuvp_G6LXFZEcXYpMFU2f65uItdn9664A25OdLSa8/edit?tab=t.0#heading=h.onospldt06en).
+
+### GitHub access
+
+You need access to three GitHub organizations:
+
+1. **Global GitHub for Business** - [newscorp-ghfb](https://github.com/newscorp-ghfb)
+2. **GitHub Enterprise (DJ)** - github.dowjones.net
+3. **GitHub.com DJ Consumer** - [newscorp-djcs](https://github.com/newscorp-djcs)
+
+Find all three in your [Okta app catalog](https://newscorp.okta.com/enduser/catalog) and log in with your preferred account. If you can't access through Okta, request access through [Sofi](https://sofi.newscorp.com/esc?id=sc_cat_item&sys_id=01f54a80dc87a6109775558e53201fb1).
+
+## Optional tools
+
+| Tool | What it's for |
+| --- | --- |
+| New Relic | Application performance monitoring, alerting, and troubleshooting |
+| Lucidchart | Creating diagrams and flowcharts for architecture and process documentation (request in [Sofi](https://sofi.newscorp.com/esc?id=sc_cat_item&table=sc_cat_item&sys_id=d5c89f271bb85d5c68ff86e3604bcb41&recordUrl=com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1&sysparm_id=d5c89f271bb85d5c68ff86e3604bcb41)) |
+
+## Code quality
+
+| Tool | What it's for |
+| --- | --- |
+| [SonarLint](https://www.sonarsource.com/products/sonarlint/ide-login/) | Catching code quality and security issues early in your IDE |
+
+## AI tools
+
+See the [AI Productivity documentation Hub](https://dowjones.atlassian.net/wiki/spaces/DJSPA/pages/5902532610) for full details on available tools.
+
+| Tool | What it's for |
+| --- | --- |
+| Claude Code (VS Code extension and CLI) | Code generation and refactoring, explaining unfamiliar codepaths, drafting and improving unit/integration tests, diagnosing bugs with step-by-step reasoning, and reviewing pull requests for style, correctness, and security issues |
+| [Gemini CLI](https://geminicli.com/) | Running Gemini-assisted tasks and workflows from the command line |
+| NotebookLM (notebooklm.google) | Summarizing, exploring, and querying your own source materials in a notebook-style workspace (available in Google Workspace) |
+| [Gemini](https://gemini.google.com/app) | General-purpose AI assistance for writing, research, and ideation (available in Google Workspace) |
+
+All AI tool usage runs through approved, secured access paths aligned with company standards.
+
+## FILE:tech/agent-platform.md
+# Agent Platform
+
+The Dow Jones Agent Platform is a centralized system for building and running LLM-powered features across the organization. It exists to prevent teams from independently re-building the same AI infrastructure (data retrieval, prompt engineering, evaluation, auth, scaling) in silos.
+
+## What it provides
+
+- **Workflow designer agent**: An AI agent that helps engineers design custom workflows using DJ-specific tools for fetching data, prompting LLMs, and citing sources
+- **Production API**: Compiles and runs workflows with built-in auth, scaling, and telemetry. Once a workflow is approved, it is automatically available via API.
+- **Chat UI**: A browser-based interface for technical and non-technical teams to interact with the agent, iterating from PRD to working API
+- **Shared tool library**: Engineering teams can add new tools or improve existing ones via PRs or MCP servers, making capabilities available org-wide
+- **Standardized evaluation**: LLM-specific tracing (via LangSmith) and online evaluators run automatically on all AI-powered features
+
+## How it works
+
+1. An engineer logs into the agent platform UI and uploads a PRD with I/O requirements
+2. The agent reviews existing production workflows for patterns and checks available tools
+3. The agent proposes a workflow (a series of tasks). The engineer reviews the output and provides feedback.
+4. This iterates until the engineer approves, at which point the workflow is saved to the registry and available via API
+5. The engineer integrates the API into their product
+
+## Status
+
+- **POC complete**: March 2026 (local CLI, workflow saving and replay)
+- **MVP target**: April 22, 2026 (UI and API in non-prod, Okta auth, S3 persistence, initial tool set)
+
+Repository: `newscorp-ghfb/dj-agent-platform`
+
 ## FILE:tech/data-sources.md
 # Data Sources
 
@@ -2422,15 +2478,93 @@ Analytics platforms, data systems, and data tooling used across Dow Jones Commer
 | Crawl coverage | % of priority content successfully crawled by search engines |
 | Crawl waste | % of crawl budget spent on non-priority pages |
 
+## Data platform
+
+Snowflake is the target data warehouse for all product and analytics data. See `tech/snowflake.md` for full detail on the Snowflake platform, ML infrastructure, and Statsig integration.
+
 ## Experimentation and testing
 
-- Experiments run via **Optimizely** and **Statsig**
+- Experiments run via **Optimizely** (being retired) and **Statsig** (target platform)
+- Statsig metric sources are SQL queries against Snowflake tables
 - Results analysis led by Data Science & Analytics team
 - Statistical significance required before shipping experiment results
+- See `tech/experimentation.md` for full detail on experimentation and personalization
 
 ## Notes
 
 Data quality: some FY26 OKR metrics (bundle revenue, bundle subscriptions) are noted as "metric TBC from business" — baseline definitions still being confirmed.
+
+## FILE:tech/experimentation.md
+# Experimentation and Personalization
+
+How Dow Jones runs A/B tests, manages feature flags, and delivers personalized content across consumer products.
+
+## Experimentation platforms
+
+Dow Jones is migrating from **Optimizely** to **Statsig** as the primary experimentation and feature flag platform. All flags must be migrated by May 2026. Optimizely will be switched off on June 30, 2026.
+
+### Statsig
+
+Statsig is the target platform for all experimentation and feature flags. It handles A/B testing, feature gating, and experiment analysis.
+
+**Environments**: Three environments map to build schemes:
+
+| Build schemes | Statsig environment | Used for |
+| --- | --- | --- |
+| Dev / Int / Proof Int | Development | Local development and integration testing |
+| Beta | UAT | Pre-release testing via TestFlight |
+| Prod / Analytics / Proof | Production | Live users |
+
+WSJ and Barron's share the same Statsig environments. There is no brand-level separation at the environment tier. To restrict an experiment to a single brand, use `browser_name` targeting rules (`browser_name == "WSJ"` or `browser_name == "Barrons"`).
+
+**User identifiers for experiments**:
+
+- `abuuid` (anonymous, session-based): Use for top-of-funnel experiments (button colors, homepage layouts, paywall hits) where traffic includes non-subscribers
+- `VXID` (authenticated): Use for subscriber-only features (portfolio tools, premium video, newsletter management)
+
+Every metric source must expose one or both of these IDs so Statsig can attribute events correctly.
+
+**Metric sources and metrics**: Statsig metrics are built on SQL-based metric sources pointing to the data warehouse. Naming convention: `[Brand]-[Medallion]-[Platform]-[Source]-[Description]` (e.g., `MW-Silver-Web-Adobe-VisitorStats`). Medallion levels: Bronze (raw), Silver (cleaned/joined), Gold (aggregated).
+
+**Experiment best practices**:
+
+- One primary metric that decides if the experiment wins or loses
+- 2-4 secondary metrics that explain why the primary metric moved
+- Guardrail metrics (page load time, crash rate) to catch regressions
+- Avoid adding too many metrics: testing too many variables increases false positive risk
+
+### Optimizely (being retired)
+
+Still used for legacy feature flags. During the migration, a **dual-provider fallback** architecture is in place: the app checks Statsig first, and if the experiment exists there (even if disabled), it uses the Statsig result. It only falls back to Optimizely if the flag does not exist in Statsig at all.
+
+When migrating a flag, the experiment key in Statsig must be character-for-character identical to the Optimizely feature key. The app uses this string to look up the experiment.
+
+## Personalization
+
+The Search and Personalization platform team operates recommendation endpoints that serve personalized content across brands and platforms.
+
+### Recommendation endpoints
+
+| Endpoint | What it does |
+| --- | --- |
+| RelatedArticles | Returns items contextually similar to the current article based on topic, entities, section, and recency |
+| BundledRecommendedArticles | Produces a ranked bundle of article recommendations tailored to a user, weighing reading history, engagement time, and content freshness |
+| PersonalizedSearch | Reranks standard search results using user embeddings and behavioral features to elevate more relevant results |
+| DiscoverContent | Surfaces a mix of articles, audio, and video aligned to user interests for browsing and media discovery |
+| DailyDiscoverUserRecommendations | Provides personalized newsletter content recommendations via Braze |
+| recommendedAuthors / recommendedCompanies | Returns static top-50 lists for author and company follow suggestions |
+
+### Where personalization appears
+
+**WSJ Web**: WTRN (What To Read Next) on article pages uses RelatedArticles, PersonalizedSearch, and BundledRecommendedArticles. WSJ+ Dashboard uses BundledRecommendedArticles. Homepage modules (News For You, Opinion, Economy/Real Estate/Sports buckets) use BundledRecommendedArticles and PersonalizedSearch.
+
+**WSJ App**: MyWSJ "For You" feed uses BundledRecommendedArticles. MyWSJ Authors and Companies uses recommendedAuthors/recommendedCompanies. Media Center uses DiscoverContent. "Up Next" on articles uses RelatedArticles and PersonalizedSearch.
+
+**Barron's**: WTRN on web uses RelatedArticles. WSJ+ News For You uses BundledRecommendedArticles. MyBarrons (app, launching May 2026) will use BundledRecommendedArticles.
+
+**MarketWatch Web**: WTRN uses RelatedArticles. Homepage "Stories You Might Like" and WSJ+ News For You use BundledRecommendedArticles.
+
+**Daily Discover** (email/newsletter): WSJ Daily Discover, WSJ+ Daily Discover, Barrons Bulletin, and WSJ+ BYOB all use DailyDiscoverUserRecommendations.
 
 ## FILE:tech/messaging.md
 # Messaging Infrastructure
@@ -2456,6 +2590,32 @@ As of January 2026: 15% of 138 in-scope products are fully migrated, 15% are con
 | Airship | Mobile and web push notifications, managed at brand level |
 | Braze | Used by Marketing for lifecycle journeys, independent of PANDA |
 | Pushly | Limited MarketWatch desktop alerts |
+
+## System connections
+
+### Real-time connections
+
+PANDA, ENS, MEGA, and Campaign Monitor (CM) interact through a set of API routes:
+
+- **ENS -> ENS DB**: Read/write for subscription data (lists, subscribers, preferences)
+- **ENS -> MEGA**: Fire-and-forget triggers for sync operations
+- **ENS -> Panda**: Proxy routes for subscription management during migration
+- **MEGA -> CM**: Read/write for list and subscriber management in Campaign Monitor
+- **MEGA -> ENS DB**: Direct database reads for sync operations
+- **Panda -> Identity GW**: User lookup and validation
+- **Panda -> ENS**: Subscription reads and writes via proxy
+
+### Scheduled sync processes
+
+| Job | Schedule (UTC) | What it does |
+| --- | --- | --- |
+| syncListToDB | 5:05 AM | Syncs Campaign Monitor list metadata to ENS DB |
+| syncBounces | 6:00 AM | Pulls bounce data from CM into ENS |
+| syncHardBounces | 7:00 AM | Pulls hard bounce data from CM into ENS |
+| syncUnsubscribes | 8:00 AM | Pulls unsubscribe events from CM into ENS |
+| syncSpamComplaints | 9:00 AM | Pulls spam complaint data from CM into ENS |
+| syncProviders | 10:00 AM | Syncs provider configurations |
+| cleanupLists | 12:00 PM | Cleans up stale or orphaned list data |
 
 ## Architecture
 
@@ -2497,6 +2657,133 @@ graph TD
     MEGA --> CM
 ```
 
+## FILE:tech/mobile-platform.md
+# Mobile Platform
+
+The Dow Jones mobile apps (WSJ, Barron's, and future brands) are built on a **white-label architecture** where a single codebase supports multiple brands via build-time configuration. This approach allows new brands to be onboarded by configuring flavors, themes, and feature flags rather than building separate apps.
+
+## iOS architecture
+
+- **Build system**: Xcode schemes per brand per environment (e.g., WSJ Dev, WSJ Prod, Barron's Beta). Each scheme maps to a build configuration and xcconfig file.
+- **Brand identity**: Registered via an AppFlavor system with 65+ brand-specific files covering icons, splash screens, entitlements, configuration keys, and design tokens.
+- **CI/CD**: Bitrise workflows handle builds, testing, and TestFlight distribution.
+- **Key packages**: Swift Packages for Market Data (SDL integration), analytics, and shared components.
+
+## Android architecture
+
+- **Build system**: Gradle product flavors with 76 modules. Each brand gets its own source set across 9 infrastructure modules and 2 foundation modules.
+- **Brand identity**: `BuildVariants.kt` and `AppConfig.kt` define brand-specific configuration. Brand detection at runtime via Hilt dependency injection.
+- **CI/CD**: Bitrise with 43 workflows and 5 pipelines for builds, testing, and Play Store distribution.
+
+## Authentication and access control
+
+The mobile apps have two independent paths to grant content access, and a user needs at least one to succeed:
+
+1. **Auth0 Subscriber**: User logs in with a DJ account. Roles come from the Auth0 JWT token.
+2. **Apple Subscriber** (iOS only): User purchases via the App Store. The app validates the receipt locally, uploads it to PLS (Payment Licensing Service), and receives a temporary JWT granting content access.
+
+Five user states govern access: not logged in, anonymous subscriber (Apple IAP only), should-be-anonymous-subscriber (pending activation), free registered user, and DJ subscriber (full account). All content access decisions are role-based, flowing through `UserState` -> `AccessControlService`.
+
+## Analytics
+
+The iOS app implements a multi-engine analytics system with five providers:
+
+| Engine | Purpose |
+| --- | --- |
+| Adobe Analytics | Primary web and app analytics |
+| Firebase / GA4 | App event tracking and attribution |
+| Parsely | Content performance analytics |
+| AppsFlyer | App install attribution |
+| ActionIQ | Customer data platform integration |
+
+The architecture uses a decorator pattern: `AppCoordinator` -> `AnalyticsManager` -> `AnalyticsManagerDecorator` -> individual engine reporters. Consent management gates which engines receive data.
+
+## Experimentation
+
+Mobile experimentation is migrating from Optimizely to Statsig (see `tech/experimentation.md`). During the transition, a dual-provider fallback architecture is in place. Feature flags on Android use a four-layer cascade: LocalDataSource, Debug Menu, Statsig, and Optimizely.
+
+## Push notifications
+
+- **Airship**: Primary push notification provider, managed at brand level
+- **Braze**: Used by Marketing for lifecycle campaigns, integrated alongside Airship on Android (dual provider architecture)
+
+## FILE:tech/snowflake.md
+# Snowflake Data Platform
+
+Snowflake is the target data platform for Dow Jones, replacing the legacy Enterprise Data Warehouse (EDW). All product data, analytics, ML training, and experimentation metrics will run through Snowflake. The migration is a major ongoing effort led by the Data & AI team in the DJEXP Confluence space.
+
+## Role in the product stack
+
+Snowflake serves as the central data layer that connects multiple product systems:
+
+- **Experimentation**: Statsig is integrated with the Snowflake Customer Data Lake, allowing experiment exposures and outcomes to be joined with customer behavioral data for analysis and measurement (see `tech/experimentation.md`)
+- **Personalization**: The News Recommender V2 uses Snowflake ML for training and inference, powered by PZN interaction events and content metadata (see `tech/experimentation.md` for personalization endpoints)
+- **Analytics**: Tableau and Looker connect to Snowflake for reporting dashboards
+- **ML workloads**: All ML training and inference is migrating to run directly in Snowflake, following a "data-centric AI" architecture where models train where the data lives
+
+## Data architecture
+
+Data in Snowflake follows a **medallion architecture** with three tiers:
+
+| Tier | Purpose | Example |
+| --- | --- | --- |
+| Bronze | Raw ingested data | Raw event streams, API dumps |
+| Silver | Cleaned, joined, and validated data | Deduplicated user events with consistent IDs |
+| Gold | Aggregated, analysis-ready data | Daily subscription metrics, content performance rollups |
+
+**dbt** is the primary transformation tool, handling SQL transformations, versioning, CI/CD, testing, and documentation. Pipelines are orchestrated by **MWAA (Managed Workflows for Apache Airflow)**.
+
+### Data governance
+
+The platform includes an automated governance layer:
+
+- **Refresh frequency tagging**: dbt pipeline metadata is automatically translated into Snowflake object tags (HOURLY, DAILY, WEEKLY, MONTHLY, IRREGULAR) so that Data Metric Functions (DMFs) can dynamically determine freshness check intervals per table
+- **RBAC**: Role-based access control governs who can read, write, and manage objects
+- **Data Metric Functions**: Automated freshness monitoring with email alerting when tables fall outside their expected refresh window
+
+## Statsig integration
+
+Statsig connects directly to the Snowflake Customer Data Lake. This means:
+
+- Experiment exposures (who was in which test group) can be joined with behavioral data stored in Snowflake
+- Metric sources for Statsig experiments are SQL queries against Snowflake tables
+- Metric sources follow a naming convention: `[Brand]-[Medallion]-[Platform]-[Source]-[Description]` (e.g., `MW-Silver-Web-Adobe-VisitorStats`)
+- Two user identifiers are used: `abuuid` (anonymous, session-based) for top-of-funnel experiments, and `VXID` (authenticated) for subscriber experiments
+
+## ML infrastructure
+
+ML workloads are migrating from Google Cloud Vertex AI to **Snowflake Snowpark Container Services (SPCS)**. The architecture follows a "data-centric AI" approach: models train and run directly where the data resides.
+
+**Execution flow**: Airflow (MWAA) triggers the job -> dbt runs data transformations -> Snowflake ML or SPCS runs training/inference -> results written back to Snowflake tables.
+
+**Three environments**: DEV (feature development), STAGE (integration/QA), PROD (scheduled tasks). Infrastructure is managed centrally by the Data Architecture team via Terraform; code is deployed by ML engineers via GitHub Actions.
+
+### Feature Store
+
+A hybrid dbt + Snowflake Feature Store approach is being adopted to solve cross-team feature engineering challenges:
+
+- **dbt handles**: SQL transformations, versioning, CI/CD, testing, documentation
+- **Snowflake Feature Store adds**: Central feature registry, ML dataset generation, feature discovery UI, model/feature lineage, cross-division discoverability
+
+The Feature Store is most valuable for tabular, entity-centric ML (churn prediction, customer scoring, recommendations, risk). It is less relevant for NLP/embedding workloads.
+
+### News Recommender V2
+
+The personalization team's next-generation recommender uses Snowflake ML as the primary training and inference platform:
+
+- **Data sources**: PZN interaction events (clicks, views, impressions), content metadata (topics, sections, publish dates), and supporting analytics from Parsely and Allesseh
+- **Feature engineering**: User-level, item/content-level, and contextual features materialized in Snowflake tables
+- **Training**: Collaborative + content-based approach using Snowflake ML, starting with the PZN V1 model
+- **Inference**: Both batch (precomputed daily/hourly recommendations) and online/near-real-time endpoints for on-demand recommendations
+- **Ownership**: Data team bootstraps the environment and pipelines; the Personalization (PZN) team owns ongoing model iteration and experimentation
+
+## AI agent integration
+
+The data team is exploring connecting AI agents (Claude Code, VS Code Copilot) to Snowflake via MCP (Model Context Protocol) servers. Two options are being evaluated:
+
+- **Snowflake Managed MCP Server**: Official server hosted inside Snowflake accounts, exposing Cortex Search, Cortex Analyst, and SQL execution. Uses OAuth with RBAC governance. PoC in progress.
+- **Snowflake-Labs MCP Server**: Open-source wrapper around the Snowflake Python connector with guardrails. Expected to be replaced by the managed server.
+
 ## FILE:tech/stack.md
 # Tech Stack
 
@@ -2526,10 +2813,10 @@ Key platforms, tools, and services used across Dow Jones Commerce.
 
 ## Experimentation and A/B testing
 
-| Technology | Used for | Notes |
-| --- | --- | --- |
-| Optimizely | A/B testing | Used for onsite experimentation including "Candybar" promotion units |
-| Statsig | Experimentation platform | |
+| Technology | Used for                 | Notes                                                                                                                                |
+| ---------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Optimizely | A/B testing              | Used for onsite experimentation including "Candybar" promotion units. We are in the process of migrating from Optimizely to Statsig. |
+| Statsig    | Experimentation platform |                                                                                                                                      |
 
 ## Project and roadmap management
 
@@ -2549,10 +2836,84 @@ Key platforms, tools, and services used across Dow Jones Commerce.
 
 See `tech/data-sources.md` for full detail.
 
+## Related documentation
+
+- `tech/web-platform.md` - SPA Platform architecture, Orchestrator, ACE Data Layer, analytics
+- `tech/mobile-platform.md` - iOS/Android white-label architecture, auth, analytics
+- `tech/experimentation.md` - Statsig, Optimizely migration, personalization
+- `tech/agent-platform.md` - Centralized LLM workflow platform
+- `tech/messaging.md` - PANDA/ENS/MEGA messaging infrastructure
+- `tech/snowflake.md` - Snowflake data platform, ML infrastructure, Statsig integration
+- `style/index-design-system.md` - Index design system (replacing UDS)
+
 ## Notes
 
 - Legal, privacy, and InfoSec reviews are standard dependencies for anything touching identity, billing, or personal data — initiate early, not at launch
 - Platform team remit: solutions must typically work across multiple DJ brands and surfaces
+
+## FILE:tech/web-platform.md
+# Web Platform (SPA Platform)
+
+The SPA Platform is the standardized architecture for building consumer web applications across Dow Jones. It provides a shared NextJS-based application shell with pre-integrated services so product teams can focus on business logic.
+
+## What it provides
+
+Every SPA built on the platform inherits:
+
+- **Ads** via the Universal Ad Component (UAC), delivered through Orchestrator
+- **Analytics** via a three-layer system: Orchestrator (script delivery), Sonata-React (React hooks), and Tealium (event processing)
+- **Authentication and entitlements** for both B2C and B2B, delivered as inline scripts via Orchestrator
+- **Data access** through an isomorphic Data Provider and a GraphQL-based Shared Data Layer (SDL)
+- **SSR-optimized performance** with server-side script inlining, lazy loading, and CloudFront caching
+- **Multi-environment configuration** through environment variables and ACE_CONFIG feature flags
+
+Brands using the SPA Platform include WSJ, Barron's, MarketWatch, and other DJ consumer properties.
+
+## Key components
+
+### Orchestrator
+
+The Orchestrator service (`@ace/orchestrator`) is the central integration hub. It generates and injects inline scripts for ads, auth, analytics, and entitlements into the HTML `<head>` during server-side rendering. This approach eliminates external script-loading delays and keeps the platform framework-agnostic.
+
+Key characteristics:
+
+- Scripts execute before React hydration, so platform services are available immediately
+- Supports both B2C (content access) and B2B (OAuth, role-based permissions) auth flows
+- User-agnostic server renders enable CloudFront caching
+- Configuration driven by environment variables and ACE_CONFIG JSON
+
+### ACE Data Layer (`__ace`)
+
+The `__ace` global messaging system is a lightweight, framework-agnostic key-value store that centralizes page and user context for Ads, Analytics, Experiments, and Consent. It uses the pattern `__ace(system, method, [args])` to route data between platform services.
+
+The data layer is:
+
+- **SSR-first**: Orchestrator injects and primes it early for performance and cacheability
+- **Framework-independent**: Works with React, Vue, or vanilla JS
+- **Vendor-neutral**: Tealium reads from it via the `__ace` bridge, but the data layer is not tied to any single vendor
+
+### Shared Data Layer (SDL) and Data Provider
+
+The Shared Data Layer exposes GraphQL queries for common consumer data: articles, collections, keyword search, and navigation. The Data Provider is an isomorphic (server and client) pure-JS layer that automatically creates NextJS API endpoints per data type. Teams can extend it with new queries under unique dataType namespaces.
+
+## Analytics architecture
+
+Analytics on the web platform follows a layered approach:
+
+1. **Orchestrator** injects Tealium scripts and the `__ace` messaging system during SSR
+2. **Sonata-React** provides React hooks (`usePageAppHeadData`, `useAppHead`) for automatic page tracking and custom event tracking
+3. **Sonata-Core** provides tracking functions (`tracking.view()`, `tracking.link()`) that bridge to Tealium via `__ace`
+4. **Tealium** (Universal Tag Manager) processes events and routes them to downstream analytics providers
+
+The data flow: Page Component -> `usePageAppHeadData` hook -> pageData service (generates utag, meta tags, LD+JSON) -> `tracking.view()` -> `__ace('tealium', 'view', [data])` -> Tealium `utag.view()`.
+
+SEO data (meta tags, Open Graph, Twitter cards, JSON-LD structured data) is generated through the same pageData service layer.
+
+## Current state and direction
+
+- The platform currently uses NextJS `/pages` routing; migration to App Router is in progress
+- The design system is transitioning from UDS to Index (see `style/index-design-system.md`)
+- Article component architecture is being redesigned to support the Index migration and light/dark theming
 
 ## FILE:process/product-development.md
 # Product Development Process
@@ -2827,6 +3188,105 @@ Prioritization (where does this fit in your roadmap)
 User personas
 Competitors
 
+## FILE:style/index-design-system.md
+# Index Design System
+
+Index is the Dow Jones design system replacing UDS (the previous system). It is a lightweight React component library built on native CSS and design tokens, serving as the single source of truth for UI development across all consumer products.
+
+## Why Index exists
+
+UDS had two critical problems that made it unsustainable:
+
+1. **Entanglement**: UDS components mixed business logic with presentation. When one team changed a shared component for their product, it would break another team's use case. Simple 30-line components would balloon into 300-line maintenance nightmares as teams added product-specific logic and overrides.
+
+2. **Technological roadblock**: UDS relied on CSS-in-JS (Emotion), which is fundamentally incompatible with React Server Components (RSC). Since RSC runs exclusively on the server where there is no browser environment, Emotion cannot generate styles. This blocked the entire organization from adopting Next.js App Router and its performance benefits.
+
+Index solves both by returning to web standards (native CSS) and enforcing a clean separation between presentation and business logic.
+
+## Core principles
+
+**Native CSS with design tokens**: All theming uses CSS variables rather than runtime JavaScript. This means zero styling overhead at runtime, compatibility with server-side rendering, and designs that sync automatically from Figma into theme tokens.
+
+**Server-first architecture**: Components can render on the server, producing fully-formed HTML. This means faster time-to-interactive, less JavaScript sent to the client, and better SEO and accessibility out of the box.
+
+**Performance**: Projects migrating from UDS can expect 30-50% smaller JavaScript bundles and 15-25% faster initial page loads, because there is no CSS-in-JS runtime overhead.
+
+**Modular ecosystem**: The core library (`index-ds-core`) provides a finite set of atomic components (Button, TextInput, Modal, Dropdown, etc.). More complex components live in separate ecosystem libraries (`index-ds-extras`, `index-comp-<product>`) to keep the core lightweight.
+
+## What Index covers
+
+- **`index-ds-core`**: Foundational atomic components
+- **Ecosystem libraries**: Separate packages for complex, product-specific components
+- **Design tokens**: Complete theming system delivered as CSS variables, with per-brand themes (WSJ, Barron's, MarketWatch, etc.)
+- **Dark mode**: Handled centrally via tokens, with no manual overrides needed
+- **Icons**: Phosphor Icons (`@phosphor-icons/react`) replace the UDS/Emotion icon conversion system
+- **Development templates**: An official template (`index-composite-template`) for creating new component libraries
+
+## What Index does not cover
+
+- Product-specific business logic (belongs in the application or a brand-specific composite)
+- Global state management (each application owns its own)
+- Complex application layouts (Index provides layout components but does not dictate page structure)
+
+## Component architecture - Logic and Presentational split
+
+Index enforces a formal separation to prevent the entanglement problem:
+
+- **Presentational components** focus only on rendering UI. They receive all data via props, contain no business logic or data fetching, and are ideally React Server Components for maximum performance.
+- **Logic components** handle data fetching, state management, and business logic. They pass processed data to presentational components.
+
+This means teams can reuse the same presentational component across products by swapping in different logic components for their specific business needs, without ever touching shared UI code.
+
+Composite components (combining logic and presentation) live in ecosystem libraries (`index-comp-<product>`), not in the core.
+
+## Theming
+
+Each brand has its own theme file that sets CSS variable values. There is always a base theme fallback. Theming works through a hierarchy:
+
+1. Base theme (`BASE_00-Base.css`)
+2. Brand theme (e.g., `WSJ_00-Base.css`, `BARRONS_00-Base.css`)
+3. Component-level CSS variable overrides via CSS modules
+
+Customization uses standard CSS modules and design token variables rather than the override objects and complex prop patterns that UDS required. For example, instead of passing `overrides={{ typographyPreset: 'utilityButton010' }}`, you apply a CSS class with `font-family: var(--comp-button-small-family)`.
+
+## Token categories
+
+Index uses semantic CSS variables organized into categories:
+
+| Category | Pattern | Example |
+| --- | --- | --- |
+| Content (text colors) | `--content-*` | `--content-subtle`, `--content-primary-high` |
+| Surface (backgrounds) | `--surface-*` | `--surface-page-background`, `--surface-neutral-low` |
+| Action (interactive) | `--action-*` | `--action-primary-high`, `--action-disabled-low` |
+| Spacing | `--space-*` | `--space-4`, `--space-16`, `--space-48` |
+| Typography | `--type-*` | `--type-body-med-family`, `--type-heading-small-size` |
+| Border radius | `--radius-*` | `--radius-small`, `--radius-round` |
+
+## Migration from UDS
+
+UDS and Index can coexist in the same application, allowing gradual migration. The migration involves:
+
+1. Installing Index packages alongside UDS
+2. Migrating components one at a time, starting with high-usage, low-complexity ones (Button, Link, Checkbox)
+3. Converting UDS override objects to CSS modules with design token variables
+4. Replacing Emotion icons with Phosphor Icons
+5. Removing UDS dependencies once all components are migrated
+
+Key package changes:
+
+| UDS | Index |
+| --- | --- |
+| `@newscorp-ghfb/dj-uds-kit` | `@newscorp-djcs/index-ds-core` |
+| `@emotion-icons/material` + `toNewsKitIcon()` | `@phosphor-icons/react` (direct usage) |
+| NewsKit theme provider (runtime) | CSS theme imports (build-time) |
+
+## Resources
+
+- [Index Storybook](https://storybook.dowjones.io/@newscorp-djcs/index-ds-core/index.html?path=/) - live component examples and documentation
+- [Phosphor Icons](https://phosphoricons.com/) - icon library used by Index
+- Core repo: `newscorp-djcs/index-ds-core`
+- Themes: `newscorp-djcs/index-ds-core/themes/`
+
 ## FILE:style/writing.md
 # Writing Style — Dow Jones Commerce Product Team
 
@@ -2876,5 +3336,4 @@ When writing context files for this repo:
 - Be specific and factual — avoid vague generalities
 - Use tables for structured information
 - Mark placeholders clearly with `[Add]`
-- Include "Last updated" dates where content may go stale
 - Link to other files rather than duplicating content
