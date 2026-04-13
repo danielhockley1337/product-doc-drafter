@@ -32,6 +32,22 @@ Most AI writing tools will happily draft a PRD from a vague brief. This one won'
 2. Open `context.md` and follow the guide to add your company context. You can use Claude to build it from existing docs.
 3. Start a session and describe your initiative
 
+## Version
+
+Current version: check the `VERSION` file in the repo root.
+
+To see if you're up to date:
+
+```bash
+git fetch --tags
+git describe --tags
+```
+
+Compare the output against the latest release on GitHub. Versions follow semver:
+- **Major**: breaking changes to instructions, templates, or agent behavior
+- **Minor**: new templates, agents, or features
+- **Patch**: bug fixes and wording improvements
+
 ## Templates
 
 | Template | When to use |

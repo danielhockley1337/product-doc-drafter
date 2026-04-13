@@ -6,7 +6,7 @@ Without context, the drafter works as a generic PM tool. With context, it become
 
 ## The fastest way to build your context
 
-You do not need to write this from scratch. Use Claude to build it for you:
+You do not need to write this from scratch. Use Claude to build it for you!!
 
 1. Gather existing docs: strategy decks, org charts, product briefs, OKR docs, architecture diagrams, glossaries, onboarding materials
 2. Drop them into this repo (or paste them into the conversation)
