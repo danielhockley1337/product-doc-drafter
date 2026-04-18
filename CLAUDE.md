@@ -194,15 +194,14 @@ If there are unresolved questions — anything unclear, missing data, or needing
 
 ## Docx Generation
 
-Use the shared converter at `md_to_docx.py` in the repo root. Do not use pandoc or the Gemini agent.
-Each initiative gets a thin `generate_docx.py` wrapper that imports `convert` from `md_to_docx` and passes source + output paths. Requirements already baked in:
-- Arial font throughout (`w:rFonts` with `ascii`, `hAnsi`, `cs` attributes on Normal and all Heading styles)
-- Zero bookmarks (strip all `w:bookmarkStart` and `w:bookmarkEnd` elements after generation)
-- No colored text anywhere — all text must be black. Do not set any `color` on runs, paragraphs, or styles.
-- Line height must always be 1.15 (set `line_spacing` to `Pt(11 * 1.15)` on the Normal style and all paragraphs).
-- No horizontal rules — never add `---` to documents; strip all `w:pBdr` elements in post-processing.
-- All headings must be bold.
-- Do not use pandoc or the Gemini agent for docx creation. Write a python-docx script directly.
+If you need to export documents to .docx, write a python-docx script. Requirements:
+- Arial font throughout
+- Zero bookmarks
+- No colored text anywhere — all text must be black
+- Line height must always be 1.15
+- No horizontal rules
+- All headings must be bold
+- Do not use pandoc for docx creation
 
 ## Agent Personas
 

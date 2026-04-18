@@ -96,9 +96,4 @@ projects/
 
 ## Docx export
 
-`md_to_docx.py` converts markdown to formatted Word docs (Arial, black text, 1.15 line height, no bookmarks). Each initiative can have a thin wrapper:
-
-```python
-from md_to_docx import convert
-convert("initiative-slug/initiative-slug-1pager.md", "initiative-slug/initiative-slug-1pager.docx")
-```
+If you need to export documents to .docx, write a python-docx script with these requirements: Arial font, black text only, 1.15 line height, bold headings, no bookmarks, no horizontal rules.
