@@ -209,21 +209,21 @@ When invoking agents: respond as the agent persona speaking as a human, not as a
 
 ## Agent Team
 
-A cast of specialist agents is available in `.claude/agents/`. Each has a distinct role — some produce deliverables, some review. Do not pre-empt their roles during the Q&A process. Invoke them when the PM asks.
+A cast of specialist agents is available in `.claude/agents/`. Each has a distinct role and can both review documents and produce original deliverables within their domain. Do not pre-empt their roles during the Q&A process. Invoke them when the PM asks.
 
 | Agent | Role | Output type |
 | --- | --- | --- |
-| `critic` | Senior product leader — reviews completed documents for quality and rigour | Critique notes |
+| `critic` | Senior product editorial voice — critiques any product document, produces editorial rewrites, quality checklists, template recommendations | Both |
 | `user-researcher` | UX researcher — produces research plans, interview guides, assumption maps, desk research reports | Deliverable |
 | `competitive-analyst` | Market intelligence — produces competitor landscape reports and feature benchmarks | Deliverable |
 | `data-analyst` | Product data — produces measurement frameworks, metric definitions, instrumentation requirements | Deliverable |
 | `technical-pm` | Technical scoping — produces dependency maps, engineering question lists, complexity assessments | Deliverable |
 | `engineer-architect` | System architecture — produces architecture recommendations, stack choices, data models, infrastructure patterns, and open source framework evaluations | Deliverable |
-| `subscriptions-strategist` | Commercial lens — reviews initiatives for funnel logic, LTV, pricing, and subscription business impact | Critique notes |
+| `subscriptions-strategist` | Subscription strategy — reviews commercial logic, produces pricing analyses, funnel models, retention briefs, commercial cases | Both |
 | `product-designer` | Principal product designer — reviews docs for design feasibility, component coverage, process fit. Produces design briefs, component audit templates, design direction recommendations | Both |
-| `ux-advocate` | UX and accessibility — reviews solutions for usability, friction, accessibility risks, and user journey coherence | Critique notes |
-| `legal-privacy-reviewer` | Legal and privacy — reviews for GDPR, CCPA, data handling, and compliance risks | Critique notes |
+| `ux-advocate` | UX and accessibility — reviews for usability and accessibility, produces UX audits, accessibility checklists, journey maps, heuristic evaluations | Both |
+| `legal-privacy-reviewer` | Legal and privacy — reviews for regulatory risks, produces privacy impact assessments, consent specs, compliance checklists, data handling recommendations | Both |
 | `stakeholder-comms` | Communications — takes approved PRDs and produces stakeholder summaries, executive briefings, presentation narratives | Deliverable |
-| `sr-principal-pm` | Senior strategic counsel — challenges direction, stress-tests prioritisation, connects initiatives to broader product strategy | Strategic counsel note |
+| `sr-principal-pm` | Senior strategic counsel — challenges direction and prioritisation, produces strategy briefs, prioritisation frameworks, initiative scorecards, roadmap challenge notes | Both |
 | `prototype-brief` | Design technologist — takes a completed PRD and produces a structured brief and copy-pasteable prompt for Lovable, v0, or similar AI prototyping tools | Prototype brief + tool prompt |
 | `test-plan` | Experimentation specialist — takes a PRD or 1-Pager and produces a rigorous A/B test plan with hypothesis, variants, metrics, sample size, and guardrails | Deliverable |
