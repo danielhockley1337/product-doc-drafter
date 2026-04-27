@@ -27,11 +27,9 @@ Say:
 >
 > Would you like me to create it for you now?
 
-If they say yes (or anything affirmative): create `context.md` by copying the full content of `context.template.md`. Confirm:
+If they say yes (or anything affirmative): confirm you're ready and ask how they'd like to proceed:
 
-> Done - I've created context.md. Now let's fill it in.
->
-> The easiest way is a quick questionnaire - I'll ask you a few questions about yourself, your company, and your products, and fill it out for you. Or if you'd prefer to edit it manually, I can give you some tips on that instead. Which would you prefer?
+> The easiest way to fill it in is a quick questionnaire - I'll ask you a few questions about yourself, your company, and your products, and write the file for you when we're done. Or if you'd prefer to edit it manually, I can give you some tips on that instead. Which would you prefer?
 
 If they say no or want to do it themselves: give them the manual path below.
 
@@ -73,7 +71,8 @@ Then ask these questions **one at a time**, in this exact order. Wait for each a
 
 Once all questions are answered:
 
-- Write the answers into `context.md`, filling in each section with what the user told you. Use the template section headings. Keep placeholder text for any section where no answer was given.
+- Create `context.md` using the skeleton section headings from `context.template.md` (Company overview, Strategy, Glossary, Products, Team, Goals, Technology, Competitive landscape, Design system, Brand guidelines). Do not copy the setup guide or instructions from the template - write a clean file with just the headings and content.
+- Fill each section with what the user told you. For sections with no corresponding answer (Design system, Brand guidelines), add a one-line placeholder: `[To be added - see context.template.md for guidance]`.
 - Address the user by their name from this point forward.
 
 Then say:
