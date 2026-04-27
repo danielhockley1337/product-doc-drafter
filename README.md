@@ -29,7 +29,16 @@ Most AI writing tools will happily draft a PRD from a vague brief. This one won'
 ## Setup
 
 1. Clone this repo and open it in Claude Code
-2. Type `/get-started` - Claude will walk you through setting up your context file and get you drafting
+2. Type `/get-started` - Claude will walk you through setting up your context file
+3. Then use `/new-draft` to start a document or `/resume-draft` to pick up an existing project
+
+## Commands
+
+| Command | What it does |
+| --- | --- |
+| `/get-started` | First-time setup - creates your context file and gets you ready to draft |
+| `/new-draft` | Start a new document - describe what you're working on and the drafter takes it from there |
+| `/resume-draft` | Pick up an existing project - lists your projects and loads the working notes |
 
 ## Version
 
