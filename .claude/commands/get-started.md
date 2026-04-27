@@ -6,4 +6,5 @@ If it does exist: say:
 
 > Welcome back! Your context file is set up and ready to go.
 >
-> What would you like to work on today? You can name a template (1-Pager, PRD, A/B Test Plan) or just describe what you're working on and I'll suggest the best fit.
+> - `/new-draft` - start a new document from scratch
+> - `/resume-draft` - pick up an existing project
