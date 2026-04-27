@@ -4,6 +4,12 @@ A multi-agent product management tool that turns rough ideas into strategically 
 
 Built for use with [Claude Code](https://claude.ai/code).
 
+## Setup
+
+1. Clone this repo and open it in Claude Code
+2. Type `/get-started` - Claude will walk you through setting up your context file
+3. Then use `/new-draft` to start a document or `/resume-draft` to pick up an existing project
+
 ## Why this exists
 
 Most AI writing tools will happily draft a PRD from a vague brief. This one won't. It pushes back.
@@ -25,12 +31,6 @@ Most AI writing tools will happily draft a PRD from a vague brief. This one won'
 3. When the problem and solution are well-defined, it drafts the document
 4. You review, iterate, and approve
 5. Call in specialist agents for deeper analysis: competitive research, technical scoping, measurement frameworks, design feasibility
-
-## Setup
-
-1. Clone this repo and open it in Claude Code
-2. Type `/get-started` - Claude will walk you through setting up your context file
-3. Then use `/new-draft` to start a document or `/resume-draft` to pick up an existing project
 
 ## Commands
 
