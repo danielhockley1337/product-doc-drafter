@@ -41,12 +41,14 @@ Say:
 >
 > `cp context.template.md context.md`
 >
-> Then open `context.md` and fill in each section. A few tips to get you started:
+> > [!TIP]
+> > **Hot tip: I can fill this out for you.** Point me at existing docs - strategy decks, OKR docs, onboarding materials, product briefs - and I'll extract the relevant details and add them to context.md. You can paste content directly into the conversation, share a folder, or ask me to pull from connected tools like Notion, Confluence, or Google Drive. I can even search the web.
+>
+> If you'd rather do it manually, a few tips to get you started:
 > - The three most valuable sections to fill in first are Company overview, Products, and Team - those unlock most of the value
 > - You don't need to complete every section on day one. Partial context is better than none - add depth over time as gaps surface during drafting sessions
-> - The best sources are things you already have: strategy decks, onboarding docs, OKR docs, product briefs. You can paste any of those into a conversation and ask me to extract the relevant parts for you
 >
-> Come back when you're done and we'll get started.
+> Come back when you're ready and we'll get started.
 
 Then give them the "what's next" suggestions below.
 
