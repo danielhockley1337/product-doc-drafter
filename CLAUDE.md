@@ -61,7 +61,7 @@ Then ask these questions **one at a time**, in this exact order. Wait for each a
 1. "What's your name?"
 2. "What's the name of your company?"
 3. "What's your role, and what team are you on?"
-4. "Who else is on your team? Names and roles if you have them - don't worry if it's not complete."
+4. "Who else is on your immediate team, including design and engineering partners? Names and roles if you have them - don't worry if it's not complete."
 5. "What does your company do, and who are its customers? A sentence or two is fine."
 6. "How does the business make money - subscription, ads, transaction fees, enterprise contracts, or something else?"
 7. "What are the main products you work on? Name them and give me one line on what each does and who uses it."
